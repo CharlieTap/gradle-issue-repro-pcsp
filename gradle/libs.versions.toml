@@ -1,0 +1,11 @@
+[versions]
+
+versions-plugin = "0.46.0"
+
+[plugins]
+
+[libraries]
+
+gradle-versions-plugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "versions-plugin" }
+
+[bundles]
